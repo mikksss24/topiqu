@@ -1,4 +1,4 @@
-
+@import 'materialize.min.css';
   /* label color */
    .input-field label {
      color: #000;
@@ -26,4 +26,15 @@
    .input-field .prefix.active {
      color: #000;
    }
-      
+  
+  .topiqu-desktop {
+    hide-on-small-only ; hide-on-med-only
+  }
+
+  .topiqu-tablet {
+    hide-on-small-only ; hide-on-large-only
+  }
+
+  .topiqu-mobile {
+    hide-on-med-only ; hide-on-large-only
+  }

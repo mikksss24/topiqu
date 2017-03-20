@@ -47,3 +47,7 @@ Route::get('/inbox', function () {
 Route::get('/post/1', function () {
     return view('postdetail');
 });
+
+Route::get('/authenticate', function () {
+    return view('authenticate');
+});

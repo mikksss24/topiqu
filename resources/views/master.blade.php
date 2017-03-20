@@ -7,6 +7,8 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!-- Topiqu own CSS -->
+    <link rel="stylesheet" href="topiqu.css">
     <!-- Icons -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!-- Compiled and minified JavaScript -->
@@ -17,6 +19,16 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!-- Master Title and Favicon -->
     <title>topiqudotcom</title>
+      <script>
+      window.liveSettings = {
+        api_key: "a0b49b34b93844c38eaee15690d86413",
+        picker: "bottom-right",
+        detectlang: true,
+        dynamic: true,
+        autocollect: true
+      };
+    </script>
+    <script src="//cdn.transifex.com/live.js"></script>
     <link rel="icon" href="{{ asset('/favicon.ico') }}">
   </head>
   <body class="grey lighten-5">
